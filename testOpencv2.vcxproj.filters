@@ -42,6 +42,42 @@
     <ClCompile Include="2_3objectDetection.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="00LicensePlateRecognition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4_01MAT数据.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4_02转换颜色.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5_01访问图像像素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5_02ROI区域图像叠加.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5_03addWeighted.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5_04对比度、亮度调节.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="01LicensePlateRecoginitioncpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5_05DFT离散傅里叶变换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5_06XML写入-YAML.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5_07XML读取-YAML.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6_01滤波-MeanBlur-Gaussian-boxBlur.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

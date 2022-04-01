@@ -115,6 +115,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,6 +124,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00LicensePlateRecognition.cpp" />
+    <ClCompile Include="01LicensePlateRecoginitioncpp.cpp" />
     <ClCompile Include="1_02图像腐蚀.cpp" />
     <ClCompile Include="1_01图片载入.cpp" />
     <ClCompile Include="1_03图像模糊.cpp" />
@@ -132,6 +135,16 @@
     <ClCompile Include="2_1sampleImageSequence.cpp" />
     <ClCompile Include="2_2Camshift.cpp" />
     <ClCompile Include="2_3objectDetection.cpp" />
+    <ClCompile Include="4_01MAT数据.cpp" />
+    <ClCompile Include="4_02转换颜色.cpp" />
+    <ClCompile Include="5_01访问图像像素.cpp" />
+    <ClCompile Include="5_02ROI区域图像叠加.cpp" />
+    <ClCompile Include="5_03addWeighted.cpp" />
+    <ClCompile Include="5_04对比度、亮度调节.cpp" />
+    <ClCompile Include="5_05DFT离散傅里叶变换.cpp" />
+    <ClCompile Include="5_06XML写入-YAML.cpp" />
+    <ClCompile Include="5_07XML读取-YAML.cpp" />
+    <ClCompile Include="6_01滤波-MeanBlur-Gaussian-boxBlur.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
